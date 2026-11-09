@@ -86,7 +86,22 @@ npm run test:firebase
 
 ## Ảnh và video nộp bài
 
-Thư mục `submission/TH05-Cham/` chứa mã nguồn ZIP, ảnh Đăng ký/Home/Danh bạ/Chat có vị trí/Firebase Data, video hai máy ảo và APK. `HUONG_DAN.md` trong thư mục đó mô tả từng tệp. Ảnh chụp trực tiếp từ app/Console; tọa độ demo được mô phỏng trên giả lập.
+**[Xem video hai máy ảo chat với nhau — khoảng 1 phút 14 giây](docs/video/demo-chat-tu-nhien.mp4)**. Hội thoại giữa Minh Anh và Bảo Ngọc gồm tin thường và chia sẻ vị trí; quay đồng thời hai màn hình ở tốc độ gốc.
+
+Ảnh chụp trực tiếp từ app và Firebase Console:
+
+| Nội dung | Ảnh |
+| --- | --- |
+| Đăng ký | [Xem ảnh](docs/screenshots/01-Dang-ky.png) |
+| Home có 2 tin chưa đọc | [Xem ảnh](docs/screenshots/02-Home-chua-doc.png) |
+| Danh bạ có trạng thái online | [Xem ảnh](docs/screenshots/03-Danh-ba-online.png) |
+| Chat có tin thường và tin vị trí | [Xem ảnh](docs/screenshots/04-Chat-tin-thuong-va-vi-tri.png) |
+| Firebase Console — Data tin nhắn | [Xem ảnh](docs/screenshots/05-Firebase-Data-tin-nhan.png) |
+| Firebase Console — Data tin vị trí | [Xem ảnh](docs/screenshots/06-Firebase-Data-vi-tri.png) |
+
+<img src="docs/screenshots/04-Chat-tin-thuong-va-vi-tri.png" width="320" alt="Chat giữa Minh Anh và Bảo Ngọc, gồm tin thường và tin vị trí" />
+
+Tọa độ demo được mô phỏng trên giả lập. Trên máy chuẩn bị bài nộp, thư mục `submission/TH05-Cham/` còn chứa mã nguồn ZIP, các ảnh/video trên và APK; thư mục này được Git bỏ qua. Các tệp ảnh/video được công khai trong repo nằm tại `docs/`.
 
 `scripts/test-android.cjs` phối hợp hai app thật bằng Android UI Automator. Sau khi build app và APK AndroidTest, bật hai giả lập rồi chạy:
 
